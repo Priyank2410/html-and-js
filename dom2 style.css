@@ -1,0 +1,18 @@
+#box{
+    height: 100px;
+    width: 110px;
+    background-color: violet;
+    color: brown;
+    text-align: center;
+    position: absolute;       
+}
+.oldclass{
+    margin-top: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(207, 177, 236);
+    color: rgb(115, 29, 196);
+}
+
+.oldclass{
+    background-color: aqua;
+}

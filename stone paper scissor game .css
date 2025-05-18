@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;;
+}
+
+h1{
+    border: 2px,solid,black;
+    height: 50px;
+
+    color: white;
+    background-color: black
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+img{
+    height: 145px;
+    margin-top: 5px;
+}
+
+.choice{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#stone{
+    background-color: rgb(252, 195, 195);
+}
+#paper{
+    background-color: rgb(209, 181, 255);
+}
+#scissor{
+    background-color: rgb(188, 255, 188);
+}
+
+.score-bord{
+    display: flex;
+    height: 100px;
+
+    justify-content: center;
+    margin-top: 30px;
+    gap: 70px;
+}
+
+.score{
+    font-size: 22px;
+
+}
+
+.message-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#message{
+    border: 2px,solid,black;
+    height: 30px;
+    width: 350px;
+    padding-top: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    font-size: 20px;
+    
+}
